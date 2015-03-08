@@ -51,7 +51,7 @@
 {
     
     // 3. Series Animations with Delays Between Animations and Skin
-    SpineSkeleton *skeleton = [DZSpineSceneBuilder loadSkeletonName:@"goblins" scale:1];
+    SpineSkeleton *skeleton = [DZSpineSceneBuilder loadSkeletonName:@"goblins-mesh" scale:1];
     
     // skin: "goblin"
     spSkeleton_setSkinByName(skeleton.spineContext->skeleton, "goblin");
