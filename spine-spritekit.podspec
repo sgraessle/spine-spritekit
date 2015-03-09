@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/sgraessle/spine-spritekit.git" } #, :tag => "#{s.version}" }
 
-  s.source_files  = "spine-runtimes/spine-c/include/spine/*.{h,c}", "spine-runtimes/spine-c/src/spine/*.{h,c}", "spine-spritekit/**/*.{h,m}"
+  s.source_files  = "spine-runtimes/spine-c/include/spine", "spine-runtimes/spine-c/src/spine", "spine-spritekit/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
