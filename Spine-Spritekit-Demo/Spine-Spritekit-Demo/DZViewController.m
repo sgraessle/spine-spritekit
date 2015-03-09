@@ -19,7 +19,7 @@
     DZSpineScene * scene = [[DZSpineScene alloc] initWithSize:size
                                                  skeletonName:@"spineboy"
                                                 animationName:@"walk"
-                                                        scale:1];
+                                                        scale:0.6];
     // adjust root position
     scene.rootNode.position = CGPointMake(size.width /2, size.height /3);
     scene.scaleMode = SKSceneScaleModeAspectFill;
